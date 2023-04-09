@@ -1,0 +1,33 @@
+@media(max-width:425px) {
+    body {
+        font-size: 16px;
+        margin: 10px;
+    }
+
+    .container {
+        flex-direction: column;
+        margin: 5px;
+    }
+
+    .container .result-container {
+        width: 100%;
+    }
+
+    .summary {
+        width: 100%;
+        justify-content: space-evenly;
+        padding: 20px;
+    }
+
+    .summary .title {
+        margin-bottom: 10px;
+    }
+
+    .score {
+        margin-bottom: 20px;
+    }
+
+    .btn-continue {
+        margin-top: 10px;
+    }
+}
